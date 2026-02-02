@@ -8,7 +8,7 @@
 // variable name multiple times in the same scope without errors
 
 // 3. Which keyword allows reinitialization?
-// Both var and let allow reinitialization - meaning you can change their values 
+// Both var and let allow reinitialization -  can change their values 
 // after declaring them
 
 // 4. Which keyword does not allow redeclaration and reinitialization?
@@ -101,4 +101,5 @@ console.log('const:', pi);
 // Output:
 // var: India
 // let: 3
+
 // const: 3.14
