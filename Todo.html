@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APPLICATION</title>
+    <link rel="stylesheet" href="Todo.css">
+</head>
+
+<body>
+    <div id="Sucess-msg"></div>
+
+    <div class="container">
+        <button id="theme">
+            Switch to dark mode
+        </button>
+
+        <h1>TODO APPLICATION</h1>
+
+        <div class="input">
+            <input type="text" id="task" placeholder="Enter the TODO List">
+            <button id="add">Add List</button>
+        </div>
+
+        <div>
+            <button class="filter active" id="filter">ALL</button>
+            <button class="filter" id="pending">Pending</button>
+            <button class="filter" id="completed">Completed</button>
+        </div>
+
+        <div class="counter" id="counter">Total:0|Pending:0|completed:0</div>
+
+        <ol id="list"></ol>
+
+        <button id="clear">Clear all list</button>
+    </div>
+
+    <script src="Todo.js"></script>
+</body>
+
+</html>
